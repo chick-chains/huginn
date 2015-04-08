@@ -129,6 +129,7 @@ GEM
     ethon (0.7.1)
       ffi (>= 1.3.0)
     eventmachine (1.0.7)
+    evernote-thrift (1.25.1)
     execjs (2.3.0)
     extlib (0.9.16)
     faraday (0.9.1)
@@ -257,6 +258,10 @@ GEM
       omniauth-oauth2 (~> 1.0)
     omniauth-dropbox (0.2.0)
       omniauth-oauth (~> 1.0)
+    omniauth-evernote (1.2.1)
+      evernote-thrift
+      multi_json (~> 1.0)
+      omniauth-oauth (~> 1.0)
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
@@ -318,8 +323,6 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rdoc (4.2.0)
-      json (~> 1.4)
     ref (1.0.5)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
@@ -490,6 +493,7 @@ DEPENDENCIES
   dotenv-rails
   dropbox-api
   em-http-request (~> 1.1.2)
+  evernote-thrift
   faraday (~> 0.9.0)
   faraday_middleware
   feed-normalizer
@@ -521,6 +525,7 @@ DEPENDENCIES
   omniauth
   omniauth-37signals
   omniauth-dropbox
+  omniauth-evernote
   omniauth-tumblr
   omniauth-twitter
   pg
