@@ -35,7 +35,7 @@ gem 'omniauth-dropbox'
 gem 'haversine'
 
 # Evernote Agents
-gem 'evernote-thrift'
+gem 'evernote_oauth'
 gem 'omniauth-evernote'
 
 # Optional Services.
